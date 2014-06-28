@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" client="site" type="module" method="upgrade">
+	<name>mod_catalogue_hotitems</name>
+	<author>Buyanov Danila</author>
+	<creationDate>Agust 2012</creationDate>
+	<copyright>Copyright (C) 2005 - 2012 Buyanov Danila. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>info@saity74.ru</authorEmail>
+	<authorUrl>www.saity74.ru</authorUrl>
+	<version>1.0</version>
+	<description>MOD_CATALOGUE_LASTORDER_DESC</description>
+	
+	<files>
+		<filename module="mod_catalogue_hotitems">mod_catalogue_hotitems.php</filename>
+		<filename>mod_catalogue_hotitems.xml</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>
+	
+	<languages folder="language">
+		<language tag="ru-RU">ru-RU.mod_catalogue_hotitems.ini</language>
+		<language tag="ru-RU">ru-RU.mod_catalogue_hotitems.sys.ini</language>
+		<language tag="en-GB">en-GB.mod_catalogue_hotitems.ini</language>
+		<language tag="en-GB">en-GB.mod_catalogue_hotitems.sys.ini</language>
+	</languages>
+	
+        <config>
+	  <fields name="params">
+	    <fieldset name="basic">
+                
+            </fieldset>
+          </fields>
+        </config>
+</extension>
